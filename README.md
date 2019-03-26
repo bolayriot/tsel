@@ -4,6 +4,6 @@ Thanks to Denz yang telah mengijinkan saya men-rewrite scriptnya ke bahasa pytho
 $ pkg install python<br>
 $ pkg install git<br>
 $ git clone https://github.com/KANG-NEWBIE/TelkomNyet<br>
-$ pip install requests<br>
+$ python -m pip install requests<br>
 $ cd TelkomNyet<br>
-$ python telnyet.py
+$ python telnyet2.py
