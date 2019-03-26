@@ -1,3 +1,7 @@
+#!usr/bin/python3.7
+#Author: KANG-NEWBIE
+#Contact; t.me/kang_nuubi
+#git; github.com/kang-newbie
 try:
 	import requests,os,time,sys
 	os.system('clear')
@@ -31,7 +35,7 @@ try:
 			time.sleep(0.5)
 		else:
 			print("[-] gagal mengirim pesan ke "+no)
-			print("[!] jumlah +1");print("[!] sleep 60s")
+			print("[!] sleep 60s")
 			c-=1
 			time.sleep(60)
 
